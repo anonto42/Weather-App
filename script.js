@@ -56,7 +56,7 @@ async function checkWeather(cityName){
             weatherIcon.src = 'img/snow.png'
         }
         else{
-            const ero = weatherIcon.src = "img/errorMSG.jpg";
+            const ero = weatherIcon.src = "img/Humidity.png";
             ero.style.borderRadius = 'var(--border-radius)'
         }
         
